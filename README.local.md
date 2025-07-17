@@ -5,23 +5,23 @@ Flask tabanlı web uygulamasıyla kameradan canlı yüz algılama.
 
 ---
 
-## 🗂️ Proje Yapısı
+## Proje Yapısı
 
 ```
 .
 ├── .idea/                 # IDE ayarları (isteğe bağlı)
 ├── data/                  # Veri setleri (eğitim/test için)
 ├── flask_app/             # Flask uygulaması (app.py, templates, static)
-├── models/                # Eğitilmiş YOLO modelleri (best.pt burada)
+├── models/                # Eğitilmiş YOLO modeli (best.pt burada)
 ├── results/               # Sonuç çıktıları
 ├── scripts/               # Eğitim, değerlendirme, vs. betikleri
-├── README                 # Bu dosya
+├── README                 
 └── requirements           # Gereksinimler
 ```
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 
 📦 Gerekli paketleri yükleyin:
 
@@ -33,7 +33,7 @@ Eğitim ya da kendi modelinizi hazırladıktan sonra, model dosyanızı `models/
 
 ---
 
-## 🧪 Eğitim
+## Eğitim
 
 Eğitim ve değerlendirme betikleri `scripts/` klasöründedir.\
 Örneğin eğitim için:
@@ -44,7 +44,7 @@ python scripts/train_yolo.py
 
 ---
 
-## 🌐 Çalıştırma
+## Çalıştırma
 
 Web uygulamasını başlatmak için:
 
@@ -63,16 +63,11 @@ Kamera akışında algılanan yüzleri göreceksiniz.
 
 ---
 
-## 📄 Notlar
+## Notlar
 
-✅ Şu anda yalnızca **YOLO tabanlı model** desteklenmektedir.\
-✅ Modelin eğitimli hali (`best.pt`) `models/` klasöründe bulunmalıdır.\
-✅ `results/` klasörü, eğitim/evaluasyon çıktıları için ayrılmıştır.
+Şu anda yalnızca **YOLO tabanlı model** desteklenmektedir.\
+Modelin eğitimli hali (`best.pt`) `models/` klasöründe bulunmalıdır.\
+`results/` klasörü, eğitim/evaluasyon çıktıları için ayrılmıştır.
 
----
 
-## 📃 Lisans
-
-Bu proje açık kaynaklıdır.\
-Eğitim, araştırma ve kişisel kullanım içindir.
 
