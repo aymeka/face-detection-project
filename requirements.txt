@@ -1,0 +1,10 @@
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+pandas
+scikit-learn
+ultralytics   # YOLOv5 ve YOLOv8 için
+seaborn
+pycocotools
