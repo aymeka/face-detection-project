@@ -1,0 +1,2 @@
+model,mAP50,mAP50-95,precision,recall,weight_path
+YOLOv8,0.9,0.55,0.95,0.9,C:\Users\karad\Desktop\face-detection-project\models\yolov8.pt

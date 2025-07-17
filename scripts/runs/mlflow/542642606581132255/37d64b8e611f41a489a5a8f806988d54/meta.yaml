@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/karad/Desktop/face-detection-project/scripts/runs/mlflow/542642606581132255/37d64b8e611f41a489a5a8f806988d54/artifacts
+end_time: 1752754281779
+entry_point_name: ''
+experiment_id: '542642606581132255'
+lifecycle_stage: active
+run_id: 37d64b8e611f41a489a5a8f806988d54
+run_name: yolov8_face3
+run_uuid: 37d64b8e611f41a489a5a8f806988d54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752754245421
+status: 3
+tags: []
+user_id: Ayça Melisa Karadede
