@@ -53,14 +53,17 @@ else:
 yolo_weights = MODELS_DIR / "yolov8.pt"
 copyfile(src_best, yolo_weights)
 
+metrics_yolo = yolo_model.val(data=str(YOLO_YAML), split='test')
+
 results.append({
     "model": "YOLOv8",
-    "mAP50": 0.90,
-    "mAP50-95": 0.55,
-    "precision": 0.95,
-    "recall": 0.90,
+    "mAP50": metrics_yolo.box.map50,
+    "mAP50-95": metrics_yolo.box.map,
+    "precision": metrics_yolo.box.precision,
+    "recall": metrics_yolo.box.recall,
     "weight_path": str(yolo_weights)
 })
+
 
 df = pd.DataFrame(results)
 df.to_csv(RESULTS_DIR / "metrics.csv", index=False)
