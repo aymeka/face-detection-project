@@ -78,14 +78,14 @@ Modelin eğitimli hali (`best.pt`) `models/` klasöründe bulunmalıdır.\
 ## 📁 Proje Adımları & Commit Geçmişi
 
 ### 📦 Veri Seti
-- 2025-07-18: Add initial dataset (train, val, test)
+- 2025-07-16: Add initial dataset (train, val, test)
 
 ### 🧠 Model Eğitimi
-- 2025-07-18: Add YOLOv8 training script
-- 2025-07-19: Trained YOLOv8 and added evaluation metrics
+- 2025-07-17: Add YOLOv8 training script
+- 2025-07-17: Trained YOLOv8 and added evaluation metrics
 
 ### 📊 Değerlendirme
-- 2025-07-20: Add confusion matrix and F1 score visualization
+- 2025-07-17: Add confusion matrix and F1 score visualization
 
 
 
